@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/ownerNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/owner_name_hint" />
+
+    <EditText
+        android:id="@+id/roomNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/room_name_hint" />
+
+    <EditText
+        android:id="@+id/widthEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/width_hint"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/lengthEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/length_hint"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/heightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/height_hint"
+        android:inputType="numberDecimal" />
+
+    <Switch
+        android:id="@+id/colorSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/color_paint_switch" />
+
+    <EditText
+        android:id="@+id/whitePaintPriceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/white_paint_price_hint"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/colorPaintPriceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/color_paint_price_hint"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/ceilingPriceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ceiling_price_hint"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/addRoomButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_room_button" />
+
+    <TextView
+        android:id="@+id/roomsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/added_rooms_label" />
+
+    <Button
+        android:id="@+id/generatePdfButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/generate_pdf_button" />
+
+</LinearLayout>

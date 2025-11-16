@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PainterBudgetApp</string>
+    <string name="room_name_hint">Nombre de la habitación</string>
+    <string name="width_hint">Ancho (metros)</string>
+    <string name="length_hint">Largo (metros)</string>
+    <string name="height_hint">Alto (metros)</string>
+    <string name="color_paint_switch">Pintura de color</string>
+    <string name="add_room_button">Añadir habitación</string>
+    <string name="added_rooms_label">Habitaciones añadidas:</string>
+    <string name="generate_pdf_button">Generar PDF</string>
+    <string name="generating_pdf_toast">Generando PDF…</string>
+    <string name="please_fill_all_fields_toast">Por favor, introduce todos los campos</string>
+    <string name="pdf_generated_toast">PDF generado en %1$s/%2$s</string>
+    <string name="write_permission_denied_toast">Permiso de escritura denied</string>
+    <string name="owner_name_hint">Nombre del propietario</string>
+    <string name="white_paint_price_hint">Precio pintura blanca (por m²)</string>
+    <string name="color_paint_price_hint">Precio pintura de color (por m²)</string>
+    <string name="ceiling_price_hint">Precio techo (por m²)</string>
+</resources>
